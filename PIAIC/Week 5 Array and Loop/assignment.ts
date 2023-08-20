@@ -62,3 +62,43 @@
 
 // 6) Write a program having an array of numbers if the number is negative it should remove the negative number from the array.
 
+// var numbers : number[] = [2,7,-8,-6,11]
+// var i =0;
+// while(i<numbers.length){
+// var elements = numbers[i];
+// if (elements>0)
+// {
+//     console.log(`After Remove Negative Values`,elements)
+// }
+
+
+// i++;
+// }
+
+// 7) Create a function that takes an array of numbers as parameter. Use a while loop to calculate and return the sum of all the numbers in the array.
+
+// function takeArray (array:number[]){
+//     let sum=0;
+//     let i = 0;
+
+// while(i<array.length){
+//     sum+=array[i];
+//     i++;
+// }
+// return sum;
+// }
+
+//  const array = [1,2,3,59,4]
+// var sumValue = takeArray(array);
+// console.log(sumValue);
+
+var sum = 0;
+var list :number []= [];
+for (var num1 = 1; num1<=100; num1++){
+    if (num1%5==0){
+       
+       sum = sum + num1;
+       list.push(num1);
+    }
+}
+console.log(sum,list)
