@@ -53,24 +53,24 @@
 // i++;
 // }
 // 7) Create a function that takes an array of numbers as parameter. Use a while loop to calculate and return the sum of all the numbers in the array.
-// function takeArray (array:number[]){
-//     let sum=0;
-//     let i = 0;
-// while(i<array.length){
-//     sum+=array[i];
+function takeArray(array) {
+    var i = 0;
+    var sum = 0;
+    while (i < array.length) {
+        sum = sum + array[i];
+        i++;
+    }
+    return sum;
+}
+var result = takeArray([1, 2, 5, 9]);
+console.log(result);
+// Implement a program that takes a list of temperatures in Celsius. Convert each temperature to Fahrenheit using the formula F = (C * 9/5) + 32 and store the converted temperatures in an array. Use a while loop to perform the conversion for each temperature.
+// var Ctemperature = 32;
+// var Ftemperature = (Ctemperature * 9/5)+32;
+// var array:number[] = [];
+// var i = 0;
+// while(i){
+//    array.push(Ftemperature)
 //     i++;
 // }
-// return sum;
-// }
-//  const array = [1,2,3,59,4]
-// var sumValue = takeArray(array);
-// console.log(sumValue);
-var sum = 0;
-var list = [];
-for (var num1 = 1; num1 <= 100; num1++) {
-    if (num1 % 5 == 0) {
-        sum = sum + num1;
-        list.push(num1);
-    }
-}
-console.log(sum, list);
+// console.log(`Farenhite Temperature is = ${array}`)
