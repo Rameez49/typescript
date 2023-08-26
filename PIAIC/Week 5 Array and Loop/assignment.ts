@@ -92,17 +92,12 @@
 
 // Implement a program that takes a list of temperatures in Celsius. Convert each temperature to Fahrenheit using the formula F = (C * 9/5) + 32 and store the converted temperatures in an array. Use a while loop to perform the conversion for each temperature.
 
-// var Ctemperature = 32;
+// var Ctemp:number[]= [45,60,23]
+// var listFTemp:number[]=[];
 
-// var Ftemperature = (Ctemperature * 9/5)+32;
-
-// var array:number[] = [];
-
-// var i = 0;
-// while(i){
-//    array.push(Ftemperature)
-   
-//     i++;
+// for (var i=0; i<Ctemp.length; i++){
+//     var Ftemp = (Ctemp[i]*9/5)+32;
+//     listFTemp.push(Ftemp)
+//     console.log(Ctemp[i], "C = ",listFTemp[i],"F");
+    
 // }
-// console.log(`Farenhite Temperature is = ${array}`)
-var num3;
