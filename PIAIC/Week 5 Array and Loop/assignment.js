@@ -7,16 +7,16 @@
 // }
 // addIndex(2,0,"Abdullah")
 // 2) Implement a simple shopping cart program using an array. Create functions to add items, remove items, and update quantities using the splice method. Print the cart's contents after each operation
-// var addItmes:String[]=[];
-// function cartProgram(){
-//    addItmes.splice(0,0,"Shirt"," Pent"," Glasses"," watch")
-//    console.log(`Add Things ==> ${addItmes}\n`)
-//    addItmes.splice(0,1)
-//    console.log(`After Delete ==> ${addItmes}\n`)
-//    addItmes.splice(0,1,"Perfume")
-//    console.log(`After Update  ==> ${addItmes}`)
-// }
-// cartProgram();
+var addItmes = [];
+function cartProgram() {
+    addItmes.splice(0, 0, "Shirt", " Pent", " Glasses", " watch");
+    console.log(`Add Things ==> ${addItmes}\n`);
+    addItmes.splice(0, 1);
+    console.log(`After Delete ==> ${addItmes}\n`);
+    addItmes.splice(0, 1, "Perfume");
+    console.log(`After Update  ==> ${addItmes}`);
+}
+cartProgram();
 // 3) Write a program that uses a while loop to print the first 25 integers.
 // var integer = 1;
 // while(integer<=25){
@@ -65,19 +65,13 @@
 // var result = takeArray([1,2,5,9])
 // console.log(result)
 // Implement a program that takes a list of temperatures in Celsius. Convert each temperature to Fahrenheit using the formula F = (C * 9/5) + 32 and store the converted temperatures in an array. Use a while loop to perform the conversion for each temperature.
-var Ctemp = [45, 60, 23];
-var listFTemp = [];
-for (var i = 0; i < Ctemp.length; i++) {
-    var Ftemp = (Ctemp[i] * 9 / 5) + 32;
-    listFTemp.push(Ftemp);
-    console.log(Ctemp[i], "C = ", listFTemp[i], "F");
-}
-// var Ctemperature = 32;
-// var Ftemperature = (Ctemperature * 9/5)+32;
-// var array:number[] = [];
-// var i = 0;
-// while(i){
-//    array.push(Ftemperature)
-//     i++;
+// var Ctemp:number[]= [45,60,23]
+// var listFTemp:number[]=[];
+// for (var i=0; i<Ctemp.length; i++){
+//     var Ftemp = (Ctemp[i]*9/5)+32;
+//     listFTemp.push(Ftemp)
+//     console.log(Ctemp[i], "C = ",listFTemp[i],"F");
 // }
-// console.log(`Farenhite Temperature is = ${array}`)
+var num1 = [1, 3, 45, 54];
+num1.splice(1, 0, 7);
+console.log(num1);

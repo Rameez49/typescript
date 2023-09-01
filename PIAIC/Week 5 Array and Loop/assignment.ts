@@ -62,6 +62,7 @@
 
 // 6) Write a program having an array of numbers if the number is negative it should remove the negative number from the array.
 
+
 // var numbers : number[] = [2,7,-8,-6,11]
 // var i =0;
 // while(i<numbers.length){
