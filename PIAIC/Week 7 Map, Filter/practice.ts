@@ -49,4 +49,3 @@
 // names.forEach((name1:String)=>{
 //     console.log(name1+"!");
 // })
-
