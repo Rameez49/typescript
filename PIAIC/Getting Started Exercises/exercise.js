@@ -154,3 +154,40 @@
 // countries.map((value,index)=>{
 //     console.log(`${index+1}. ${value}`);
 // })
+// Qno 21. They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
+// var someThing:{
+//     Name:String;
+//     Age:number;
+//     Adress:String;
+// } = {
+// Name:"Rameez Ul Hassan",
+// Age:19,
+// Adress:"Malik Pur"
+// }
+// console.log(someThing.Name,"\n",someThing.Age,"\n",someThing.Adress);
+// Qno 22. Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
+// var array:number[]=[1,2,3,4]
+// var invalidElement:number=10;
+// var mainArray=array[invalidElement]
+// if (mainArray==undefined){
+//     console.log(`Error: index ${invalidElement} is out of bounds `)
+// }
+//     else {
+//         console.log(`Element at index ${invalidElement}: ${mainArray}`);
+//     }
+// Creating an array
+const myArray = [1, 2, 3, 4, 5];
+// Trying to access an element at an invalid index
+const invalidIndex = 10; // This is an intentional error
+const elementAtIndex = myArray[invalidIndex];
+// Checking if the index is out of bounds
+if (elementAtIndex === undefined) {
+    console.error(`Error: Index ${invalidIndex} is out of bounds.`);
+}
+else {
+    console.log(`Element at index ${invalidIndex}: ${elementAtIndex}`);
+}
+// Correcting the error by accessing a valid index
+const validIndex = 2;
+const elementAtValidIndex = myArray[validIndex];
+console.log(`Element at index ${validIndex}: ${elementAtValidIndex}`);
