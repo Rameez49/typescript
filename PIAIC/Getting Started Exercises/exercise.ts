@@ -287,3 +287,201 @@
         
 //     }
 
+// Qno 23. Conditional Tests: Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
+
+// let car = 'subaru';
+
+// console.log("Is car == 'subaru'? I predict True.")
+
+// console.log(car == 'subaru')
+
+// • Look closely at your results, and make sure you understand why each line evaluates to True or False.
+
+// • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
+
+// let car = 'subaru';
+
+// console.log(`Is car == 'subaru'? I predict True`);
+// console.log(car == 'subaru');
+
+// console.log(`Is car == 'honda'? I predict False`);
+// console.log(car == 'honda');
+
+// console.log(`Is car.lower()== 'subaru'? I predict True`);
+// console.log(car.toLocaleLowerCase() =='subaru');
+
+// console.log(`Is car.upper() == 'SUBARU'? I predict True`);
+// console.log(car.toUpperCase()=='SUBARU');
+
+// console.log(`Is car.length == '6'? I predict True`);
+// console.log(car.length==6);
+
+// console.log(`Is car.length== '10'? I predict False`);
+// console.log(car.length==10);
+
+// console.log(`Is car[0] == 's'? I predict True`);
+// console.log(car[0]=='s');
+
+// console.log(`Is car[0] == 'H'? I predict False`);
+// console.log(car[0]=="H");
+
+// console.log(`Is car == 'subaru' || car == 'honda'? I predict true`);
+// console.log(car == 'subaru' || car == 'honda'); 
+
+// console.log(`Is car == 'subaru' && car == 'honda'? I predict False`)
+// console.log(car == 'subaru' && car == 'honda'); // False
+
+// Qno 25. Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
+// • Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just earned 5 points.
+
+// • Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
+
+// var alien_color = "yellow";
+
+// if (alien_color=='green'){
+//     console.log(`You earned 5 points`);
+    
+// }
+// else{
+//     console.log(`Sorry you dont earned 5 points`);
+    
+// }
+
+// Qno 26. Alien Colors #2: Choose a color for an alien as you did in Exercise 25, and write an if-else chain.
+// • If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
+
+// • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
+
+// • Write one version of this program that runs the if block and another that runs the else block.
+
+// var alien_color = "yellow";
+
+// if (alien_color=='green'){
+//     console.log(`You earned 5 points`);
+    
+// }
+// else{
+//     console.log(`You just earned 10 points`);
+    
+// }
+// Qno 27. Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
+// • If the alien is green, print a message that the player earned 5 points.
+
+// • If the alien is yellow, print a message that the player earned 10 points.
+
+// • If the alien is red, print a message that the player earned 15 points.
+
+// • Write three versions of this program, making sure each message is printed for the appropriate color alien.
+
+// var alien_color = "yellow";
+
+// if (alien_color=='green'){
+//     console.log(`You earned 5 points`);
+    
+// }
+// else if(alien_color=='yellow'){
+//     console.log(`You earned 10 points`);
+
+// }
+// else if(alien_color=='red'){
+//     console.log(`You earned 15 points`);
+
+// }
+// else{
+//     console.log(`Sorry you dont earned points`);
+    
+// }
+
+// Qno 28. Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
+// • If the person is less than 2 years old, print a message that the person is a baby.
+
+// • If the person is at least 2 years old but less than 4, print a message that the person is a toddler.
+
+// • If the person is at least 4 years old but less than 13, print a message that the person is a kid.
+
+// • If the person is at least 13 years old but less than 20, print a message that the person is a teenager.
+
+// • If the person is at least 20 years old but less than 65, print a message that the person is an adult.
+
+// • If the person is age 65 or older, print a message that the person is an elder.
+
+// var age = 2;
+
+// if (age < 2){
+//     console.log(`This person is baby because age = ${age}`);
+    
+// }
+
+// else if (age>=2 && age <4){
+//     console.log(`This person is toddler because age = ${age}`);
+
+// }
+// else if (age>=4 && age <13){
+//     console.log(`This person is kid because age = ${age}`);
+
+// }
+// else if (age>=13 && age <20){
+//     console.log(`This person is teenager because age = ${age}`);
+
+// }
+// else if (age>=20 && age <65){
+//     console.log(`This person is adult because age = ${age}`);
+
+// }
+// else if (age>=65){
+//     console.log(`This person is elder because age = ${age}`);
+
+// }
+// else {
+//     console.log(`Plz type correct age`);
+    
+// }
+
+// Qno 29. Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
+// • Make a array of your three favorite fruits and call it favorite_fruits.
+
+// • Write five if statements. Each should check whether a certain kind of fruit is in your array. If the fruit is in your array, the if block should print a statement, such as You really like bananas!
+
+// var favorite_fruits:String[]=[`Mango`,`Banana`,`Orange`]
+
+// if (favorite_fruits.includes('Mango')){
+//     console.log(`You realy like Mangoes!`);
+    
+// }
+// else {
+//     console.log(`I think you don't like mango as much`);
+    
+// }
+// if (favorite_fruits.includes('Grapes')){
+//     console.log(`You realy like Grapes!`);
+    
+// }
+// else {
+//     console.log(`I think you don't like grapes as much`);
+    
+// }
+// if (favorite_fruits.includes('Banana')){
+//     console.log(`You realy like Bananas!`);
+    
+// }
+// else {
+//     console.log(`I think you don't like bananas as much`);
+    
+// }
+// if (favorite_fruits.includes('Orange')){
+//     console.log(`You realy like Orange!`);
+    
+// }
+// else {
+//     console.log(`I think you don't like orange as much`);
+    
+// }
+// if (favorite_fruits.includes('Apple')){
+//     console.log(`You realy like Apple!`);
+    
+// }
+// else {
+//     console.log(`I think you don't like apple as much`);
+    
+// }
+
