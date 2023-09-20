@@ -273,34 +273,61 @@
 // Qno 29. Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
 // • Make a array of your three favorite fruits and call it favorite_fruits.
 // • Write five if statements. Each should check whether a certain kind of fruit is in your array. If the fruit is in your array, the if block should print a statement, such as You really like bananas!
-var favorite_fruits = [`Mango`, `Banana`, `Orange`];
-if (favorite_fruits.includes('Mango')) {
-    console.log(`You realy like Mangoes!`);
-}
-else {
-    console.log(`I think you don't like mango as much`);
-}
-if (favorite_fruits.includes('Grapes')) {
-    console.log(`You realy like Grapes!`);
-}
-else {
-    console.log(`I think you don't like grapes as much`);
-}
-if (favorite_fruits.includes('Banana')) {
-    console.log(`You realy like Bananas!`);
-}
-else {
-    console.log(`I think you don't like bananas as much`);
-}
-if (favorite_fruits.includes('Orange')) {
-    console.log(`You realy like Orange!`);
-}
-else {
-    console.log(`I think you don't like orange as much`);
-}
-if (favorite_fruits.includes('Apple')) {
-    console.log(`You realy like Apple!`);
-}
-else {
-    console.log(`I think you don't like apple as much`);
+// var favorite_fruits:String[]=[`Mango`,`Banana`,`Orange`]
+// if (favorite_fruits.includes('Mango')){
+//     console.log(`You realy like Mangoes!`);
+// }
+// else {
+//     console.log(`I think you don't like mango as much`);
+// }
+// if (favorite_fruits.includes('Grapes')){
+//     console.log(`You realy like Grapes!`);
+// }
+// else {
+//     console.log(`I think you don't like grapes as much`);
+// }
+// if (favorite_fruits.includes('Banana')){
+//     console.log(`You realy like Bananas!`);
+// }
+// else {
+//     console.log(`I think you don't like bananas as much`);
+// }
+// if (favorite_fruits.includes('Orange')){
+//     console.log(`You realy like Orange!`);
+// }
+// else {
+//     console.log(`I think you don't like orange as much`);
+// }
+// if (favorite_fruits.includes('Apple')){
+//     console.log(`You realy like Apple!`);
+// }
+// else {
+//     console.log(`I think you don't like apple as much`);
+// }
+// Qno 30. Hello Admin: Make a array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the array, and print a greeting to each user:
+// • If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
+// • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
+// var arrayName:String[]=[`admin`,`rameez`,`faizan`,`ahmed`,`ali`]
+// for (var i=0; i<arrayName.length; i++){
+//     if (arrayName[i]=='admin'){
+//         console.log(`Hello ${arrayName[i]}, would you like to see a status report?`);
+//     }
+//     else if (arrayName[i]!='admin'){
+//         console.log(`Hello ${arrayName[i]}, thank you for logging in again`);
+//     }
+// }
+// Qno 31. No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
+// • If the list is empty, print the message We need to find some users!
+// • Remove all of the usernames from your array, and make sure the correct message is printed.
+var arrayName = [];
+for (var i = 0; i < arrayName.length; i++) {
+    if (arrayName[i] == 'admin') {
+        console.log(`Hello ${arrayName[i]}, would you like to see a status report?`);
+    }
+    else if (arrayName[i] != 'admin') {
+        console.log(`Hello ${arrayName[i]}, thank you for logging in again`);
+    }
+    else if (arrayName[i].length == 0) {
+        console.log(`We need to find some error`);
+    }
 }
