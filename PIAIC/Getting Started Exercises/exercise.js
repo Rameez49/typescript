@@ -307,19 +307,7 @@
 // Qno 30. Hello Admin: Make a array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the array, and print a greeting to each user:
 // • If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
 // • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
-// var arrayName:String[]=[`admin`,`rameez`,`faizan`,`ahmed`,`ali`]
-// for (var i=0; i<arrayName.length; i++){
-//     if (arrayName[i]=='admin'){
-//         console.log(`Hello ${arrayName[i]}, would you like to see a status report?`);
-//     }
-//     else if (arrayName[i]!='admin'){
-//         console.log(`Hello ${arrayName[i]}, thank you for logging in again`);
-//     }
-// }
-// Qno 31. No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
-// • If the list is empty, print the message We need to find some users!
-// • Remove all of the usernames from your array, and make sure the correct message is printed.
-var arrayName = [];
+var arrayName = [`admin`, `rameez`, `faizan`, `ahmed`, `ali`];
 for (var i = 0; i < arrayName.length; i++) {
     if (arrayName[i] == 'admin') {
         console.log(`Hello ${arrayName[i]}, would you like to see a status report?`);
@@ -327,7 +315,19 @@ for (var i = 0; i < arrayName.length; i++) {
     else if (arrayName[i] != 'admin') {
         console.log(`Hello ${arrayName[i]}, thank you for logging in again`);
     }
-    else if (arrayName[i].length == 0) {
-        console.log(`We need to find some error`);
-    }
 }
+// Qno 31. No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
+// • If the list is empty, print the message We need to find some users!
+// • Remove all of the usernames from your array, and make sure the correct message is printed.
+// var arrayName:String[]=[]
+// for (var i=0; i<arrayName.length; i++){
+//     if (arrayName[i]=='admin'){
+//         console.log(`Hello ${arrayName[i]}, would you like to see a status report?`);
+//     }
+//     else if (arrayName[i]!='admin'){
+//         console.log(`Hello ${arrayName[i]}, thank you for logging in again`);
+//     }
+//     else if (arrayName[i].length==0){
+//         console.log(`We need to find some error`);
+//     }
+// }

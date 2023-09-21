@@ -490,25 +490,7 @@
 
 // • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
 
-// var arrayName:String[]=[`admin`,`rameez`,`faizan`,`ahmed`,`ali`]
-// for (var i=0; i<arrayName.length; i++){
-//     if (arrayName[i]=='admin'){
-//         console.log(`Hello ${arrayName[i]}, would you like to see a status report?`);
-            
-//     }
-//     else if (arrayName[i]!='admin'){
-//         console.log(`Hello ${arrayName[i]}, thank you for logging in again`);
-        
-//     }
-
-// }
-
-// Qno 31. No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
-// • If the list is empty, print the message We need to find some users!
-
-// • Remove all of the usernames from your array, and make sure the correct message is printed.
-
-var arrayName:String[]=[]
+var arrayName:String[]=[`admin`,`rameez`,`faizan`,`ahmed`,`ali`]
 for (var i=0; i<arrayName.length; i++){
     if (arrayName[i]=='admin'){
         console.log(`Hello ${arrayName[i]}, would you like to see a status report?`);
@@ -518,10 +500,16 @@ for (var i=0; i<arrayName.length; i++){
         console.log(`Hello ${arrayName[i]}, thank you for logging in again`);
         
     }
-    else if (arrayName[i].length==0){
-        console.log(`We need to find some error`);
-        
-    }
 
+}
+
+// Qno 31. No Users: Add an if test to Exercise 30 to make sure the list of users is not empty.
+// • If the list is empty, print the message We need to find some users!
+
+// • Remove all of the usernames from your array, and make sure the correct message is printed.
+
+if (arrayName.length=0){
+    console.log(`We need some user`);
+    
 }
 
