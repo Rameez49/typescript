@@ -2,25 +2,27 @@ import inquirer from "inquirer";
 
 async function calculator() {
     try {
+        
+        
 
-        const array = [
+        const array=[
             {
-                type: "input",
+                // type: "input",
                 name: "num1",
                 message: "Enter 1 Number",
             },
 
             {
-                type: "input",
+                // type: "input",
                 name: "num2",
                 message: "Enter 2 Number",
             },
-            {
-                type: "list",
-                name: "Operation",
-                message: "Select Any Operation",
-                choices: ["Add", "Subtract", "Multiplication", "Division", "Modulus"]
-            }
+            // {
+            //     // type: "list",
+            //     name: "Operation",
+            //     message: "Select Any Operation",
+            //     choices: ["Add", "Subtract", "Multiplication", "Division", "Modulus"]
+            // }
         ]
        
 
